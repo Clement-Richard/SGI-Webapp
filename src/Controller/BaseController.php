@@ -6,9 +6,10 @@ use Symfony\Bundle\FrameworkBundle\Controller\AbstractController;
 use Symfony\Component\HttpFoundation\Response;
 use Symfony\Component\Routing\Annotation\Route;
 
+#[Route('/home', name: 'app_')]
 class BaseController extends AbstractController
 {
-    #[Route('/base', name: 'app_base')]
+    #[Route('/', name: 'app_index')]
     public function index(): Response
     {
         return $this->render('base/index.html.twig', [
