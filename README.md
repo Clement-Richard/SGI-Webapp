@@ -50,7 +50,6 @@ Installation de yarn
     PHPMAILER_PORT=587
     ###< PHPMailer ###
    ```
-   
  4. Effectuer un build npm
    ```sh
     npm run build
