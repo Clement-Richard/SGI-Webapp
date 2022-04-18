@@ -22,6 +22,11 @@
 <a href="https://nodejs.org/fr/">Node.js Downloads</a>
 <a href="https://www.apachefriends.org/xampp-files/8.1.4/xampp-windows-x64-8.1.4-1-VS16-installer.exe">Xampp 8.1.4</a>
 
+Installation de yarn
+```sh
+   npm install --global yarn
+```
+   
 ### Installation
 
 1. Cloner le repo
@@ -34,7 +39,7 @@
    ```
 2. Installer les packages node
    ```sh
-   npm install
+   yarn
    ```
 3. Configuration de PHPMailer dans le fichier .env
    ```env
